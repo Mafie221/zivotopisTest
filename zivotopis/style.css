@@ -1,0 +1,58 @@
+:root {
+    --pozadi: rgb(243, 236, 236);
+    --sedabarva: rgb(116, 96, 96);
+}
+a:hover {
+    color: red;
+}
+a:active{
+    color: rgb(134, 5, 5);
+}
+a:c
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--pozadi);
+    border: var(--sedabarva) 1px solid;
+    
+}
+
+.container {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1;
+}
+.fotka {
+    text-align: center;
+}
+.fotka img  { 
+    width: 30%;
+}
+
+.tucny-text {
+    font-weight: bold;
+}
+
+
+.dovednosti span {
+    text-decoration: underline;
+    font-style: italic;
+}
+.vzdelani {
+    text-align: center;
+}
+
+
+h1,h2 {
+    text-decoration: underline;
+    text-align: center;
+    color: var(--sedabarva);
+}
+h3 {
+    text-decoration: underline;
+}
+ul {
+    list-style-type: none;
+}
